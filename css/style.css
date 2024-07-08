@@ -1,0 +1,461 @@
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ===================Menu Starts here================= */
+
+.navbar{
+    padding: 52px 0px;
+    border-bottom: none !important;
+}
+.navbar-inverse{
+    background: transparent !important;
+}
+.navbar ul li a{
+    color: white !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.navbar ul li a:hover{
+    color: skyblue !important;
+    transition: 0.5s ease-in;
+}
+.navbar-toggle{
+    border: 1px solid white !important;
+}
+.navbar-toggle:hover{
+    background-color: deepskyblue !important;
+}
+.navbar-inverse .navbar-collapse{
+    border-color: transparent !important;
+}
+
+/* ===================Menu Starts here================= */
+
+
+/* ===================Navigation Starts here================= */
+
+.location{
+    border: 1px solid white !important;
+    border-radius: 50px;
+}
+
+
+
+/* ===================Menu Starts here================= */
+
+/* ===================slider starts here=============== */
+
+.slider{
+    width: 100%;
+    height: 700px;
+    background-image: url(/img/test1.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.slider-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    position: relative;
+}
+.slider-content{
+    position: absolute;
+    top: 39%;
+    width: 100%;
+}
+.icons .fa{
+    font-size: 35px;
+    margin-right: 7px;
+}
+.btn1{
+    padding: 10px 18px;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid #fff;
+    border-top-left-radius: 15px;
+    transition: all 0.5s ease-in-out;
+}
+.btn1:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+    margin-right: -6px;
+}
+.btn2{
+    padding: 10px 18px;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid #fff;
+    border-bottom-right-radius: 15px;
+    transition: all 0.5s ease-in-out;
+}
+.btn2:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: orangered;
+    border-color: orangered;
+    margin-left: -6px;
+}
+.social-networks a.fa{
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin-right: 2px;
+    transition: all 0.5s ease-in-out;
+}
+.social-networks a.fa:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: deepskyblue;
+    border: 1px solid deepskyblue;
+    
+}
+.slider .text, .slider .typed-cursor{
+    display: inline;
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+.primary{
+    color: orangered;
+}
+.typed-cursor{
+    opacity: 1;
+    animation: blink 0.7s infinite;
+}
+
+
+
+
+/* ===================slider Ends here=============== */ 
+
+
+/*--------------------- services starts here---------- */
+
+.service-area{
+    margin-top: 30px;
+}
+.service-area p{
+    margin-bottom: -5px;
+}
+
+.service-wrap{
+    box-shadow: 0 0 10px rgba(0, 0, 0.2);
+    overflow: hidden;
+    padding: 25px 35px;
+    position: relative;
+    transition: ease-in; 
+    z-index: 9;
+    margin-top: 22px;   
+}
+.service-wrap::before, .service-wrap::after{
+    content: "";
+    height: 300%;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.5s;
+    opacity: 0;
+    background: #34495e;
+
+}
+.service-wrap::before{
+    top: -37px;
+    left: 100%;
+}
+.service-wrap:hover::before{
+    left: -27px;
+    opacity: 1;
+}
+.service-wrap::after{
+    right: 100%;
+    bottom: -37px;
+}
+.service-wrap:hover:after{
+    right: -27px;
+    opacity: 1;
+}
+.service-wrap:hover{
+    color: #fff;
+}
+.service-wrap h3{
+    color: #000000;
+}
+.service-wrap:hover h3{
+    color: #fff;
+}
+.service-wrap:hover  h3:after{
+    background-color: #fff;
+}
+.service-icon i{
+    font-size: 30px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+.service-wrap:hover .service-icon i{
+    transform: rotate(360deg);
+}
+.service-wrap h3{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    position: relative;
+}
+.service-wrap p{
+    font-size: 14px;
+    margin-bottom:0 ;
+}
+
+
+
+/*--------------------- services ends here---------- */
+
+/* works starts here */
+
+.row.no-gutters [class*=col-]{
+    padding-left: 0;
+    padding-right: 0;
+}
+.img-wrapper{
+    overflow: hidden;
+}
+.img-wrapper img{
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+.img-wrapper img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+/* works ends here */
+
+/* team session */
+
+.team-member{
+    margin: 0px 15px;
+    margin-top: 50px;
+}
+.team-member-info{
+    padding: 10px 0px 30px 0px;
+}
+h4.team-member-name{
+    font-size: 19px;
+    font-weight: 700px;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+.team-member-designation{
+    color: deepskyblue;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+.social-list{
+    padding: 0;
+}
+.social-list li{
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+.social-list i{
+    font-size: 17px;
+}
+.icon-gray{
+    color: #64707b;
+}
+
+
+/* team session */
+
+/* testimonial styles */
+
+.carousel-inner img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+    padding: 5px;
+}
+.testimonials{
+    background-image: url(../img/Screenshot\ 2024-07-04\ 094133.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 92px;
+    padding-bottom: 197px;
+}
+.testimonials .carousel-indicators{
+    margin-bottom: -60px;
+}
+.border-bottom{
+    width: 142px;
+    height: 2px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.carousel-inner p{
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+
+/* testimonial styles */
+
+
+/* faq section starts */
+
+.panel-group{
+    margin-bottom: 20px;
+    margin-top: 58px;
+}
+#accordian .panel{
+    box-shadow: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#accordian .panel-heading{
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+}
+#accordian .panel-title a{
+    display: block;
+    padding: 25px 35px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background: #34495e;
+    border: none;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+#accordian .panel-title a:after,
+#accordian .panel-title a.collapse::after{
+    content: "\f068";
+    font-family: fontawesome;
+    width: 40px;
+    height: 40px;
+    line-height: 32px;
+    border-radius: 50px;
+    background: #34495e;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    border: 5px solid #fff;
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    transition: all 0.3s ease 0s;
+}
+#accordian .panel-title a.collapsed::after{
+    content: "\f067";
+}
+#accordian .panel-title a:hover::after,
+#accordian .panel-title a.collapsed:hover::after{
+    transform: rotate(360deg);
+}
+#accordian .panel-body{
+    padding: 15px 25px;
+    background-color: #ebebeb;
+    font-size: 14px;
+    color: #8c8c8c;
+    line-height: 25px;
+    border-top: none;
+    position: relative;
+}
+.panel-heading a{
+    text-decoration: none !important;
+    font-size: 15px !important;
+    font-weight: none;
+}
+.freeimage img{
+    /* margin-top: -45px; */
+    margin-bottom: 96px;
+    margin-left: 122px;
+   
+}
+
+/* faq section starts */
+
+/* <!-- video markup starts here -->*/
+.video-area{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url(../img/pexels-hamann-la-338986-1131575.jpg);
+    padding-top: 200px;
+    padding-bottom: 180px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    overflow: hidden;
+    margin-top: 40px;
+    background-attachment: fixed;
+
+}
+.play{
+    background: #fff url(..//img/play-button-arrowhead.png) no-repeat 60% 50%;
+    width: 110px;
+    height: 110px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 0px 20px rgba(0, 167, 221, 0.5);
+    transition: all 0.4s ease-in;
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+    -ms-transition: all 0.4s ease-in;
+}
+.play:hover{
+    box-shadow: 0px 0px 15px 20px rgba(0, 84, 111, 0.5);
+    -webkit-box-shadow: 0px 0px 15px 20px rgba(0, 84, 111, 0.5);
+    -moz-box-shadow: 0px 0px 15px 20px rgba(0, 84, 111, 0.5);
+}
+.video-container{
+    position: relative;
+    padding-bottom: 54.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-top: -130px;
+    display: none;
+}
+/*<!-- video markup starts here --> */
+
+
+/* blog style starts */
+
+
+
+/* blog style starts */
