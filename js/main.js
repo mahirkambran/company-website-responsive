@@ -8,7 +8,7 @@ $(document).ready(function($){
     // Typed.js animation
     if (typeof Typed !== 'undefined') {
         new Typed('.text', {
-            strings: ["<strong>i love</strong> <strong class='primary'>coding.</strong>", "<strong>and to</strong> <strong class='primary'>share!!!.</strong>"],
+            strings: ["<strong>mi samsung</strong> <strong class='primary'>lorem.</strong>", "<strong>to let</strong> <strong class='primary'>ipsum!!!.</strong>"],
             typeSpeed: 50,
             loop: true,
         });
