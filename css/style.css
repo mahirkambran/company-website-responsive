@@ -556,12 +556,11 @@ h4.team-member-name{
 .stat{
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(../img/stat.jpg);
     background-position: center;
-    padding-top: 180px;
-    padding-bottom: 200px;
+    padding-top: 250px;
     color: white;
     background-attachment: fixed;
-    padding-top: 100px;
     background-size: auto;
+    height: 750px;
 }
 .stat img{
     width: 100%;
@@ -581,3 +580,51 @@ h4.team-member-name{
 }
 
 /* counter stat style starts */
+
+
+/* form style starts here */
+
+.contact-area{
+    margin-top: 60px;
+}
+.form-control{
+    border-radius: 0px !important;
+    border: 1px solid #34495e !important;
+
+}
+.contact_form button.btn{
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+    padding:  12px 43px !important;
+    border: 1px solid black !important;
+    border-radius: 0px !important;
+
+}
+.border-bottom{
+    background-color: black;
+    /* height: 2px;
+    width: 40px; */
+}
+.contact-infos{
+    float: left;
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    background-color: darkcyan;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.contact-infos .fa{
+    font-size: 26px;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    width: 50px;
+    line-height: 50px;
+}
+.contact-infos p{
+    color: #fff;
+    margin-top: 15px;
+}
+
+/* form style starts here */
