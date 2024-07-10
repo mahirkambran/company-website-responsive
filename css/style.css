@@ -600,16 +600,17 @@ h4.team-member-name{
     border-radius: 0px !important;
 
 }
-.border-bottom{
-    background-color: black;
-    /* height: 2px;
-    width: 40px; */
+.border-bottom-two{
+    width: 142px;
+    height: 2px;
+    background-color: #000000;
+    margin: 0 auto;
 }
 .contact-infos{
     float: left;
     width: 100%;
     margin-top: 90px;
-    margin-bottom: 30px;
+    margin-bottom: -30px;
     background-color: darkcyan;
     padding-top: 35px;
     padding-bottom: 35px;
@@ -628,3 +629,51 @@ h4.team-member-name{
 }
 
 /* form style starts here */
+
+
+/* footer area starts here */
+
+.footer{
+    background: url(../img/black-wood-plank-texture-background_293060-9259.avif);
+    background-size: cover;
+    padding-top: 145px;
+    padding-bottom: 120px;
+    background-attachment: fixed;
+    
+}
+.social-icon a{
+    margin: 0px 16px 20px 16px;
+    display: inline-block;
+}
+.footer .fa{
+    font-size: 30px;
+    color: deepskyblue;
+    width: 80px;
+    height: 80px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: #fff;
+    line-height: 2;
+    border: 10px solid #24495e;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.social-icon a:hover .fa{
+    border: 10px solid #fff;
+    transform: rotate(360deg);
+}
+.bordernow{
+    width: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-bottom: 2px solid #eadede;
+
+}
+.footer p{
+    color: #eadede;
+    line-height: 2px;
+}
+
+
+
+/* footer area starts here */
