@@ -1,3 +1,8 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
 body{
     overflow-x: hidden;
 }
@@ -22,7 +27,7 @@ body{
     font-weight: bold;
     font-size: 15px;
 }
-.navbar ul li a:hover{
+.navbar ul li a:hover .navbar ul li a:focus{
     color: skyblue !important;
     transition: 0.5s ease-in;
 }

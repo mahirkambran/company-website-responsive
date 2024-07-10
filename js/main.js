@@ -80,4 +80,5 @@ $(document).ready(function($){
     counters.forEach(counter => {
         observer.observe(counter);
     });
+    $('a').smoothScroll();
 });
